@@ -14,6 +14,21 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors:{
+      "dark_slate_grey" : "#242742",
+      'white': '#ffffff',
+      "charcoal_grey": "#36384e",
+      "my_grey":"#9294a0",
+      "my_tomato":"#ff6257",
+      "tomato_light":"#f8e8e7"
+    },
+    fontFamily:{
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'roboto': ['Roboto',  "sans-serif"],
+      'body': ['"Open Sans"'],
+    }
   },
   plugins: [],
 }

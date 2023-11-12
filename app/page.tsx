@@ -7,9 +7,9 @@ export default function Home() {
   const [emailInput, setEmailInput] = useState("gfgfg")
   const [submitted, setSubmitted] = useState(false);
   
-  const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   function handleSubmitClick() {
-    if (!emailInput.match(validRegex)) {
+    if (!emailInput.match(emailRegex)) {
       setValid(false);
       return;
     }
